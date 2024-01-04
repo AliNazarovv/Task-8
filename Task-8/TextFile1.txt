@@ -1,0 +1,49 @@
+﻿/* Input: READ, OBTAIN, GET
+Output: PRINT, DISPLAY, SHOW
+Compute: COMPUTE, CALCULATE, DETERMINE
+Initialize: SET, INIT
+Add one: INCREMENT, BUMP */
+IF number mod 2 equals 0 THEN
+PRINT $"{number} eded cutdur"
+ELSE
+PRINT $"{number} eded tekdir"
+ENDIF	
+------------------------------------
+Read a
+Read b 
+If a mod b equals 0 THEN
+PRINT eded tam bolunur
+ELSE
+PRINT Eded bolunmur
+ENDIF
+------------------------------
+Read nums
+IF nums mod 10 equals 7 THEN
+PRINT Beli sonu 7 ile qurtarir
+ELSE
+PRINT Xeyr 7 ile qurtarmir
+ENDIF
+---------------------------------
+READ c
+READ d
+IF c equals d THEN
+PRINT ededler bir-birine beraberdir
+ELSE
+PRINT ededler bir-birine beraber deyil
+ENDIF
+-------------------------------------
+READ firstNum
+READ secondNum
+READ sum  equlas  firstNum plus secondNUm
+READ res equals 1
+IF sum mod 2 equals 0 THEN
+WHILE(SUM>0)
+res equals res times sign sum mod 10
+sum equals sum division slash 10
+PRINT {sum} ededin hasili
+ELSE
+PRINT eded cut deyil
+ENDIF
+
+
+
